@@ -1,0 +1,26 @@
+.add-item {
+   height: 40px !important;
+   padding: 8px;
+}
+.text-area {
+    background-color: #41b49f28;
+    padding: 8px;
+}
+.custom-add-width {
+    width: 50%;
+}
+@media only screen and (max-width: 1150px) {
+    .custom-add-width {
+        width: 60%;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .custom-add-width {
+        width: 75%;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .custom-add-width {
+        width: 90%;
+    }
+}
